@@ -9,6 +9,12 @@ on:
     # paths:
     #   - "book/**"
     #   - ".github/workflows/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "book/**"
+      - ".github/workflows/**"
     
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
