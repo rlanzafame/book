@@ -4,3 +4,14 @@ scipy
 numpy
 matplotlib
 ipython
+
+ipykernel
+jupyterlab
+
+ghp-import
+
+#nick
+plotly
+pandas
+mpld3 # not compatible with python 3.12 as of jan 24
+pylab
