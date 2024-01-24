@@ -2,11 +2,14 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 root: index.md
 format: jb-book
-
-# parts:
-# - caption: 1. General probability concepts
+  
+parts:
+# - caption: Plotly
 #   chapters:
-#   - file: section_01/Must_know_ probability_concepts
+#   - file: plotly/plotly
+- caption: PyBox
+  chapters:
+  - file: pybox/iframe
 #   - file: section_01/Total_Probability_Theorem
 
 # - caption: 2. Discrete random variables
